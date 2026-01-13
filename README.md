@@ -1,8 +1,8 @@
-# 🏥 Diabetes Prediction System: Early Detection with Machine Learning
+# Diabetes Prediction System: Early Detection with Machine Learning
 
 > Empowering healthcare decisions through intelligent risk assessment and early diabetes detection
 
-## 🎯 Project Overview
+## Project Overview
 
 This machine learning system predicts diabetes risk using patient health metrics, enabling early intervention and preventive care. Built with rigorous medical standards in mind, the model prioritizes recall to minimize missed diagnoses while maintaining high accuracy.
 
@@ -12,15 +12,15 @@ This machine learning system predicts diabetes risk using patient health metrics
 - **Healthcare Efficiency**: Support clinical decision-making with data-driven insights
 - **Cost Reduction**: Reduce long-term healthcare costs through early intervention
 
-## 🔬 Technical Features
+## Technical Features
 
 ### Core Capabilities
-- 🤖 **K-Nearest Neighbors Classification**: Robust algorithm for medical prediction
-- ⚖️ **Class Imbalance Handling**: RandomOverSampler for balanced training
-- 🎛️ **Hyperparameter Optimization**: Automated k-value tuning using validation data
-- 📊 **Comprehensive Evaluation**: Focus on recall, precision, and accuracy metrics
-- 🔄 **Reproducible Results**: Fixed random seeds for consistent outcomes
-- 📈 **Medical-Grade Standards**: Optimized for healthcare applications
+- **K-Nearest Neighbors Classification**: Robust algorithm for medical prediction
+- **Class Imbalance Handling**: RandomOverSampler for balanced training
+- **Hyperparameter Optimization**: Automated k-value tuning using validation data
+- **Comprehensive Evaluation**: Focus on recall, precision, and accuracy metrics
+- **Reproducible Results**: Fixed random seeds for consistent outcomes
+- **Medical-Grade Standards**: Optimized for healthcare applications
 
 ### Advanced Implementation
 - **Data Preprocessing**: StandardScaler for feature normalization
@@ -28,7 +28,7 @@ This machine learning system predicts diabetes risk using patient health metrics
 - **Validation-Driven Tuning**: Prevents overfitting during hyperparameter selection
 - **Recall Optimization**: Prioritizes detecting positive cases (critical in medical diagnosis)
 
-## 📋 Dataset Information
+## Dataset Information
 
 **Pima Indians Diabetes Database**
 - **Samples**: 768 patient records
@@ -49,7 +49,7 @@ This machine learning system predicts diabetes risk using patient health metrics
 
 **Target Variable**: Outcome (0 = No Diabetes, 1 = Diabetes)
 
-## 💻 Implementation Versions
+## Implementation Versions
 
 ### Version 1: Basic Model (`diab_pred.py`)
 ```python
@@ -69,7 +69,7 @@ for i in range(1, 100):
     recall_class1 = classification_report(y_valid, y_pred, output_dict=True)['1']['recall']
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Core Libraries:**
 - **NumPy**: Numerical computing and array operations
@@ -82,7 +82,7 @@ for i in range(1, 100):
   - `RandomOverSampler`: Synthetic minority class generation
 - **Matplotlib**: Data visualization and plotting
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -127,7 +127,7 @@ Model Summary:
 - Random Seed: 42 (for reproducibility)
 ```
 
-## 📊 Key Machine Learning Concepts Demonstrated
+## Key Machine Learning Concepts Demonstrated
 
 ### 1. **Data Preprocessing Pipeline**
 - **Feature Scaling**: StandardScaler ensures all features contribute equally
@@ -151,7 +151,7 @@ recall_class1 = report_dict['1']['recall']
 # Class 1 recall is critical - represents diabetes detection rate
 ```
 
-## 🎯 Model Performance Analysis
+## Model Performance Analysis
 
 ### Why K-Nearest Neighbors?
 - **Interpretability**: Easy to explain to medical professionals
@@ -165,7 +165,7 @@ recall_class1 = report_dict['1']['recall']
 3. **Accuracy**: Overall performance indicator
 4. **F1-Score**: Balanced measure of precision and recall
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Technical Improvements
 - **Ensemble Methods**: Random Forest, Gradient Boosting for better accuracy
@@ -185,7 +185,7 @@ recall_class1 = report_dict['1']['recall']
 - **Real-time Monitoring**: Continuous model performance tracking
 - **Regulatory Compliance**: HIPAA-compliant data handling
 
-## 📈 Clinical Significance
+## Clinical Significance
 
 ### Impact Areas
 - **Preventive Medicine**: Early identification of high-risk patients
@@ -200,7 +200,7 @@ The model learns to recognize patterns in:
 - Lifestyle factors (BMI, age)
 - Physiological markers (blood pressure, insulin levels)
 
-## 🤝 Contributing
+## Contributing
 
 Healthcare ML requires careful validation. Contributing areas:
 - **Medical Validation**: Clinical expert review of model decisions
@@ -208,13 +208,13 @@ Healthcare ML requires careful validation. Contributing areas:
 - **Feature Engineering**: Domain expertise for better predictors
 - **Ethical Considerations**: Bias detection and fairness evaluation
 
-## ⚠️ Important Disclaimers
+## Important Disclaimers
 
 **Medical Disclaimer**: This model is for educational and research purposes only. It should not be used as a substitute for professional medical diagnosis or treatment. Always consult qualified healthcare providers for medical decisions.
 
 **Validation Note**: Clinical deployment would require extensive validation, regulatory approval, and integration with existing healthcare workflows.
 
-## 📚 Educational Value
+## Educational Value
 
 Perfect for learning:
 - **Medical Machine Learning**: Healthcare-specific ML considerations
@@ -223,7 +223,7 @@ Perfect for learning:
 - **Model Evaluation**: Medical-grade performance assessment
 - **Ethical AI**: Responsible ML in high-stakes domains
 
-## 🏆 Acknowledgments
+## Acknowledgments
 
 - **Dataset**: Pima Indians Diabetes Database from UCI ML Repository
 - **Medical Guidelines**: Based on diabetes screening recommendations
@@ -231,6 +231,6 @@ Perfect for learning:
 
 ---
 
-**Advancing healthcare through intelligent prediction** 🩺💡
+**Advancing healthcare through intelligent prediction**
 
 *Technology in service of human health*
